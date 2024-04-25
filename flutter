@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlutterWave</title>
+    <link rel="stylesheet" href="flutter.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#"
+        ><img
+          src="IMAGES/image flu.svg"
+          alt="flutetrwave logo"
+          style="width: 250px"
+      /></a>
+      <ul>
+        <li>Enterprise</li>
+        <li>SME</li>
+        <li>Personal</li>
+        <li>Resoure</li>
+        <li>Developers</li>
+        <li>Company</li>
+      </ul>
+      <input type="submit" value="Sign In" id="si" />
+    </nav>
+
+    <div class="big">
+      <h1>
+        <span>Endless <br />possibilities</span><br />
+        for all
+      </h1>
+      <p>
+        Unlocking boundless payment opportunities for enterprises,<br />individuals,small
+        businesses,emerging markets,and startups<br />alike.
+      </p>
+    </div>
+
+    <div class="but">
+      <input type="button" value="Create a free account" id="freacc" />
+      <input type="button" value="Contact sales" id="consale" />
+    </div>
+    <br />
+    <div class="box">
+      <img class="image1" src="IMAGES/smile.webp" />
+      <div class="image2">
+        <img class="image2" src="IMAGES/dress.webp" />
+        <p>
+          Send money hone to loved ones,sell <br />
+          online as a small business, process <br />
+          global payments as an enterprise,<br />
+          build financial products as a startup.<br />
+          With Fluterwave, the question isnt<br />
+          whats possible- it is: what isn't?
+        </p>
+      </div>
+    </div>
+    <div class="patners">
+      <div class="people">
+        <p>
+          We are trusted by <b>1 million+</b> businesses &<b> 2 million+</b>
+          individuals
+        </p>
+      </div>
+      <div class="logos">
+        <a href="#"><img src="IMAGES/uber.svg" alt="Uber" /></a>
+        <a href="#"><img src="IMAGES/mtn.svg" alt="MTN" /></a>
+        <a href="#"><img src="IMAGES/chipper.svg" alt="chipper" /></a>
+        <a href="#"><img src="IMAGES/piggyvest.svg" alt="piggy-vest" /></a>
+        <a href="#"><img src="IMAGES/wise.svg" alt="wise" /></a>
+        <a href="#"><img src="IMAGES/microsoft.svg" alt="microsoft" /></a>
+      </div>
+    </div>
+
+    <div class="endless2">
+      <h1>
+        <b
+          >Endless payment<br />possibilities
+          <span
+            >for <br />
+            enterprises</span
+          ></b
+        >
+      </h1>
+    </div>
+    <div class="checkpay">
+      <div class="online">
+        <h1>Online Checkout</h1>
+        <p>
+          Our online checkout features our<br />
+          smart payment ordering system,<br />
+          incredible speed, and beautiful<br />
+          simplicity.Its's designed to grow your<br />
+          revenue and provide the best<br />
+          payment experience to your<br />
+          customers.
+        </p>
+        <input type="button" id="getst" value="Get started" />
+      </div>
+      <div class="check">
+        <a href="#"><img src="IMAGES/checkout.png" alt="checkout" /></a>
+      </div>
+      <div class="payout">
+        <h1>Accept payments</h1>
+        <p>
+          Easily receive money from anyone,<br />
+          anywhere in the world via our<br />
+          multitude of secure payment<br />
+          methods.
+        </p>
+        <a href="#" id="lem">Learn more ></a>
+
+        <h1>Transfers (Payout)</h1>
+        <p>
+          Make single or bulk transfers to<br />
+          bank accounts from your<br />
+          Flutterwave dashboard.
+        </p>
+        <a href="#" id="lem">Learn more ></a>
+      </div>
+    </div>
+    <div class="possible">
+      <h1>
+        Endless payment<br />
+        possibilities for every<br /><span style="color: green">
+          Small Business.</span
+        >
+      </h1>
+    </div>
+    <div class="woman">
+      <div>
+      <h1>Store</h1>
+      <p>Create a free ecoomerce website and<br> start selling worldwide with just a few<br> clicks.</p>
+      <input type="button" id="startsell" value="Start selling">
+    </div>
+    </div>
+  </body>
+</html>
