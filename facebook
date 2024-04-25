@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+</head>
+<style>
+   *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:#f0f2f5;
+    
+   }
+    .begin{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        margin-top:150px;
+        
+        
+    }
+    .intro{
+        margin-left:250px;
+        display:flex;
+        flex-direction: column;
+        margin-right:30px;
+        margin-bottom:150px;
+    }
+    .photo{
+        width:250px;
+        margin-top:55px;
+    }
+    #em{
+        padding:10px 70px;
+        margin-top:20px;
+        text-align:start;
+        font-size:18px;
+       
+
+    }
+    #pass{
+        padding:10px 70px;
+        margin-top:10px;
+        text-align:start;
+        font-size:18px;
+       
+    }
+    #log{
+        margin-top:10px;
+        margin-bottom:5px;
+        padding:10px 160px;
+        background-color:blue;
+        color: white;
+    }
+    #crnwc{
+        padding:20px 50px;
+        margin:15px 25px 20px 25px;
+        background-color:#42b72a;
+        color:white;
+        border-radius:6px;
+    }
+    .every{
+         border:1px solid black;
+         border-radius:8px;
+         text-align:center;
+        width:400px;
+
+        margin-right:40px;
+        text-align:  center;
+    }
+    .celeb{
+        margin-left:850px;
+    }
+    
+</style>
+<body>
+    <div class="begin">
+            <div class="intro">
+                <img src="IMAGES/facebook.svg" alt="facebook logo" class="photo">
+                <h1>Facebook helps you connect and share<br> with the people in your life.</h1>
+            </div>
+        <div class="every">
+            <form>
+                <input type="text" id="em" name="em/tel" placeholder="Email or phone number">
+                <br>
+                <input type="password" id="pass" name="pass" placeholder="password"> 
+                <br>
+                <input type="button" value="Log in" id="log">
+                <br>
+                <a href="#">Forgotten Password?</a>
+                <hr>
+                <input type="submit" value="Create new account" id="crnwc">
+            </form>
+            </div>
+              </div>
+            <p class="celeb"><b>Create a page</b> for a celebrity brand,or business.</p>
+</body>
+</html>
