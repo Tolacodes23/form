@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            background-color:purple;
+            text-align: white;
+        }
+
+        
+        header {
+            background-color:indigo;
+            text-align: center;
+            padding-bottom: 20px;
+            padding-top: 5px;
+            color: white;
+        }      
+
+        #ffff {
+            display: flex;
+            flex-direction: row;
+            width: 70%;
+            justify-content: space-between;
+            margin: 55px;
+        }
+
+        #pppp {
+            display: flex;
+            flex-direction: column;
+            margin: 30px;
+            color: white;
+        }
+
+        footer {
+            background-color: indigo;
+            text-align: center;
+            padding-bottom: 20px ;
+            padding-top: 10px;
+            color: white;
+            
+        }
+
+        #icon {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>ABOUT US</h2>
+    </header>
+
+    <section id="sec">
+        <article id="ffff">
+            <img src="" alt="Hiii" width="650px">
+            <br>
+            <section id="pppp">
+                <p>We work with professionals as well as with people who first came to the recording studio.</p>
+                <h3> Simple HTML Website Template</h3>
+                <h5> Give your listeners a professional record of your work!</h5>
+                <ul>
+                    <li>Professionally we will write a song</li>
+                    <li>Will help to make an advertising audio movie or jingle</li>
+                    <li>We would voice the video</li>
+                    <li>We would arrange for the authors song</li>
+                    <li>We will write Congratulations to any event</li> 
+                    <li> Sound recording of children</li>
+                </ul>
+                <section id="icon">
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-google-plus-g"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    
+                </section>
+            </section>
+        </article>
+    </section>
+    <footer>
+       <h1>About the studio.</h1>
+
+    </footer>
+</body>
+</html>
