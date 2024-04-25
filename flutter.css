@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Millik", sans-serif;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 60px;
+  font-size:16px;
+  gap: 19px;
+  font-family: Moderat, sans-serif;
+}
+#si {
+  width: 80px;
+  box-sizing: 17%;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  margin-right: 30%;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+
+  font-size: 12px;
+}
+.big {
+  margin-left: 120px;
+}
+.big h1 {
+  font-size: 100px;
+  margin-right: 80px;
+  padding: 40px;
+  font-family:fantasy;
+}
+
+span {
+  font-style: normal;
+  color: #fb9129;
+  margin-right: 30px;
+}
+
+.unclock p {
+  font-size: 20px;
+}
+#freacc {
+  padding: 20px;
+  color: #ffffff;
+  background-color: #0a0e27;
+  font-size: 12px;
+}
+#consale {
+  padding: 20px;
+  color: black;
+  background-color: #eeeeee;
+  font-size: 12px;
+}
+.but {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  gap: 6px;
+  margin-left: 180px;
+}
+.figure {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+.image1 {
+  width: 700px;
+  height: 550px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.image2 {
+  width: 520px;
+  height: auto;
+  margin-top: -45px;
+  margin-left: 20px;
+}
+.image2 p {
+  margin: 20px 0px 0px 35px;
+}
+
+.patners {
+  margin: 50px 110px;
+}
+
+.people {
+  font-size: 20px;
+  line-height: 22px;
+
+  font-family: Millik, sans-serif;
+}
+.logos {
+  display: flex;
+  gap: 40px;
+}
+
+.logos img {
+  width: 110px;
+}
+.endless2 h1{
+  font-size:80px;
+  text-align: start;
+  margin-left:90px;
+  font-family:fantasy;
+  line-height:86px;
+}
+.online{
+  margin-left:90px;
+}
+.online h1{
+  font-size:24px;
+}
+.online p{
+ font-size:16px;
+ line-height:22px;
+}
+#getst{
+  padding:15px;
+  background-color:#0a0e27;
+  border-radius:8px;
+  color:white;
+}
+.check img{
+  width:300px;
+  margin-left:90px;
+  
+}
+.online{
+  font-size:20px;
+  font-family: Moderat, sans-serif;
+  text-align:start;
+  margin-top:250px;
+}
+#lem{
+  text-decoration:none;
+  color:red;
+}
+.checkpay{
+  display:flex;
+}
+.payout{
+ margin-left:120px;
+ margin-top:120px;
+ font-size:16px;
+}
+.possible{
+  font-size:50px;
+  font-family:fantasy;
+  margin-left:50px;
+}
+ 
