@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Home Page</title>
+</head>
+<style>
+*{
+    margin:0%;
+    padding: 10px;
+    box-sizing:border-box ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    color: white;
+background-image: url(IMAGES/nx.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;  
+}
+body::after{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    z-index: 1;
+    background: rgba(0,0, 0, 0.3);
+    
+
+}
+nav{
+    
+    padding:10px;  
+    z-index:2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+nav a img{
+    width: 300px;
+}
+#movies{
+    text-align: center;
+    font-size:35px;
+    font-family: 'Courier New', Courier, monospace;
+     padding:30px;
+}
+#movies h1{
+    font-size: 100px;
+}
+#movies p{
+    font-size:20px;
+}
+input[type=submit]{
+    background-color: red;
+
+}
+#getgo{
+    display: flex;
+    justify-content: center;
+
+}
+label{
+    display:none;
+
+}
+
+
+</style>
+<body>
+    <nav>
+        <a href="#"><img src="IMAGES/R.png"></a>
+        <input type="submit" value="SIGN IN" id="SI">
+    </nav>
+
+    <div id="movies">
+        <h1>Unlimited movies,TV shows,and more. </h1>
+        <h3>Watch anywhere. Cancel anytime.</h3>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        </div>
+        <div id="getgo">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Email Address">
+        <input type="submit" value="GET STARTED >" id="gstart" name="gstart">
+        </div>
+</body>
+</html>
