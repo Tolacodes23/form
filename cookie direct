@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie page</title>
+</head>
+<body>
+    <a href="HTML TUTSS.html">Back to home page</a>
+    <section>
+        Ingredients
+        <ul>
+           <li> 1 cup Butter, softened</li>
+           <li> 3/4 cup sugar</li>
+           <li>3/4 cup Brown sugar</li> 
+          <li>2 teaspoons Vanilla.</li>
+        </ul>>
+    </section>
+    <a href="file:///C:/Users/USER/cookie%20direct.html"> Go to home page</a>
+</body>
+</html>
