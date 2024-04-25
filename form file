@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Form</title>
+</head>
+<body>
+    <style> 
+      body{
+        border:3px solid blue;
+        margin-top: 20px;
+        margin-left: 30%;
+        margin-right: 30%;
+      }
+      header{
+        height: 100px;
+        background-image:url(IMAGES/form.jpg);
+        background-size: cover;
+        background-position:center;
+      }
+      header h2{
+      padding-top:60px;
+      color: white;
+      }
+      form select, form input{
+          border:1px solid;
+          border-radius:5px;
+        }
+      footer {
+            background-color: indigo;
+            text-align: left;
+            padding-bottom: 1px ;
+            padding-top: 1px;
+            color: white; 
+        }
+.asterisk1{
+      color: red;
+}
+    </style>
+<header>
+    <h2>Enrollment Form</h2>
+  </header>
+    <form id="form">
+        <label for="sname">Student name*</label><br>
+        <input type="text" id="sname" name="sname"><br>
+      <br>
+            <label for="smail">Student email*</label><br>
+            <input type="email" id="smail" name="smail"><br>
+      <br>
+          <label for="sdob" style="margin-right: 30px;">Student date of birth*</label>
+          <label for="glevel">Grade Level*</label>
+          <label for="syas" style="margin-left: 30px;">School year and semester*</label>
+          <br>
+          <input type="date" id="sdob" name="sdob" style="margin-right:20px;">
+          <select style="margin-left: 20px;">
+            <option value="level">100</option>
+            <option value="level">200</option>
+            <option value="level">300</option>
+            <option value="level">400</option>
+            <option value="level">500</option>
+          </select>
+       
+          <select style="margin-left: 100px;">
+          <option value="year">2021/2022</option>
+          <option value="year">2022/2023</option>
+          <option value="year">2023/2024</option>
+          <option value="year">2024/2025</option>
+          </select>
+          <br>
+
+          <label for="stra">Street Address*</label><br>
+          <input type="text" id="stra" name="stra"><br>
+        <br>
+          <label for="ASU">Apartment,suite or unit#</label><br>
+          <input type="text" id="ASU" name="ASU"><br>
+        <br>
+      <label for="city" style="margin-left: 20px;">City*</label>
+      <label for="state" style="margin-left: 140px;" class="form-label"><span class="asterisk1">*</span></label><br>
+      
+       
+      <input type="text" id="city" name="city">
+      <select style="margin-left: 20px;">
+        <option value="state">Lagos</option>
+        <option value="state">Ogun</option>
+        <option value="state">Abuja</option>
+      </select><br>
+      <br>
+      <label for="zcode">Zipcode*</label>
+      <label for="pnum" style="margin-left: 200px;">Phone number*</label>
+      <br>
+      <input type="text" id="zcode" name="zcode">
+      <input type="text" id="pnum" name="pnum" style="margin-left:70px;"><br>
+     <br>
+      <label for="email">Email Address*</label><br>
+      <input type="email" id="email" name="email"><br>
+     <br>
+    <footer>
+      <h1>Home of record</h1>
+    </footer>
+    </form>
+    
+</body>
+</html>
+ <footer>
+         English (UK) Hausa Français (France) Português (Brasil) Español العربي Bahasa Indonesia Deutsch 日本語 Italiano हिन्दी
+        Sign UpLog in Messenger Facebook LiteVideo Places Games Marketplace Meta PayMeta StoreMeta QuestMeta AIInstagramThreads
+
+    </footer>
