@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    body{
+        background: #000;
+    }
+    body::after{
+        content:"";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: url("IMAGES/bg.jpg");
+        background-position: center;
+
+    }
+    nav{
+        position: fixed;
+        z-index: 1;
+        padding: 25px 60px;
+    }
+    nav a img{
+        width: 150px;
+    }
+    .form-info{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 450px;
+        padding: 60px;
+        border-radius: 4px;
+        background: rgba(0,0,0,0.75);
+        transform: translate(-50%, -50%);
+
+    }
+    .form-info h2{
+        color: white;
+        font-size: 2rem;
+    }
+    .form-info form{
+        margin: 25px 0 65px;
+    }
+    form.form-info
+</style>
+
+<body>
+   <nav>
+    <a href="#"><img src="IMAGES/R.png" alt="logo" style="height: 50px;"></a>
+   </nav>
+   <h1>Sign In</h1>
+        <form>
+            <div class="form-info">
+                <input type="text" id="epm" name="epm"
+                <label for="epm">Email or phone number</label><br>
+                </div>
+                <div class="form-info">
+                <input type="password" id="pass" name="pass"
+                <label for="pass">Password</label>
+            </div>
+            <button>Sign In</button>
+            <div class="form-rem">
+                <input type="checkbox" id="reme" name="reme">
+                <label for="reme">Remember Me</label>
+                </div>
+                <div>
+                    <a href="#">Need help?</a>
+                </div>
+            </form>
+            
+            <p>New to Netflix?<a href="#">Sign up now</a></p>
+            <small>
+            <p>This page is protected by Google reCAPTCHA to ensure you're not a robot. 
+                <a href="#">Learn More</a></p>
+            </small>
+</body>
+</html>
