@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuts</title>
+</head>
+<style>
+    .country{
+        display: grid;
+        grid-template-columns: minmax();
+        width: 50%;
+    height: 150px;
+  margin: 30%;
+  padding-left: 20%;
+  border: 2px solid blue;
+    }
+    .tfunds{
+        background-color: brown;
+        font-style: italic;
+    }
+</style>
+<body>
+    <div class="country">
+        <div style="background-color: darkgoldenrod;">
+            <h3>London</h3>
+<p>London is the capital city of england.</p>
+        </div>
+        <div style="background-color: aquamarine;">
+            <h3>OSLO</h3>
+            <p>Oslo is he acpital city of norway.</p>
+        </div>
+<div style="background-color: brown;">
+    <h3>Rome</h3>
+    <p> Rome is the capital city of Italy.</p>
+</div>
+    </div>
+    <p>My name is <span class="tfunds">Tola</span></p>
+</body>
+</html>
